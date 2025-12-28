@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #00FF00; /* Neonově zelená */
+}
+
+.nav-button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #00FF00;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hybrid-creature {
+    margin-bottom: 40px;
+}
+
+.creature-header {
+    text-align: left;
+}
+
+.creature-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.creature-image, 
+.creature-description, 
+.creature-percentage {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.creature-image img {
+    max-width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+}
+
+.percentage-graph {
+    text-align: center;
+}
+
+.creature-description p {
+    margin: 0;
+    text-align: center;
+}
