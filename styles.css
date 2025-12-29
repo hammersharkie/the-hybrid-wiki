@@ -6,13 +6,30 @@ body {
     padding: 0;
 }
 
+p {
+    font-size: 18px;
+    padding-left: 60px;
+}
+
 header {
     text-align: center;
     padding: 20px;
 }
 
-h1, h2, h3 {
-    color: #00FF00; /* Neonově zelená */
+h2, h3 {
+    color: #39ff14;
+    padding-left: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #39ff14;
+}
+
+#web_title {
+    font-size: 60px;
+    text-align: center;
+    color: #39ff14
 }
 
 .nav-button {
@@ -63,4 +80,26 @@ h1, h2, h3 {
 .creature-description p {
     margin: 0;
     text-align: center;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.reddit-button {
+    display: inline-block;
+    background-color: #FF4500;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.reddit-button:hover {
+    background-color: #FF6347;
 }
