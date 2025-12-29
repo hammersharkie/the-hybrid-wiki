@@ -48,6 +48,10 @@ h1 {
     border-radius: 5px;
 }
 
+.nav-button:hover {
+    background-color: #32CD32;
+}
+
 .hybrid-creature {
     margin-bottom: 40px;
 }
